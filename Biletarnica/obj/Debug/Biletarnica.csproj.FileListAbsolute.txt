@@ -18,3 +18,4 @@ C:\Users\tamar\Desktop\Neda Vanredno\Biletarnica\Biletarnica\obj\Debug\Biletarni
 C:\Users\tamar\Desktop\Neda Vanredno\Biletarnica\Biletarnica\obj\Debug\Biletarnica.exe
 C:\Users\tamar\Desktop\Neda Vanredno\Biletarnica\Biletarnica\obj\Debug\Biletarnica.pdb
 C:\Users\tamar\Desktop\Neda Vanredno\Biletarnica\Biletarnica\obj\Debug\Biletarnica.csprojAssemblyReference.cache
+C:\Users\tamar\Desktop\Neda Vanredno\Biletarnica\Biletarnica\obj\Debug\Biletarnica.Karte.resources

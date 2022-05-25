@@ -10,7 +10,7 @@ namespace Biletarnica
     {
         static public string user_ime = "";
         static public string user_prezime = "";
-
+        static public string koncert = "";
         /// <summary>
         /// The main entry point for the application.
         /// </summary>

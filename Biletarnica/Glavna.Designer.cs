@@ -56,6 +56,7 @@
             this.buttonKupi.TabIndex = 1;
             this.buttonKupi.Text = "kupi";
             this.buttonKupi.UseVisualStyleBackColor = true;
+            this.buttonKupi.Click += new System.EventHandler(this.buttonKupi_Click);
             // 
             // dgvTabela
             // 

@@ -11,36 +11,29 @@ using System.Data.SqlClient;
 
 namespace Biletarnica
 {
-    public partial class Glavna : Form
+    public partial class Karte : Form
     {
-        public Glavna()
+        public Karte()
         {
             InitializeComponent();
         }
 
- 
-
         SqlDataAdapter adapter;
         DataTable podaci;
-        private void Glavna_Load(object sender, EventArgs e)
+
+        private void Karte_Load(object sender, EventArgs e)
         {
-            adapter = new SqlDataAdapter("select * from pogled", Konekcija.Connect());
+            adapter = new SqlDataAdapter("select * from pogled2", Konekcija.Connect());
             podaci = new DataTable();
             adapter.Fill(podaci);
 
             dgvTabela.DataSource = podaci;
-            //dgTabela.ReadOnly = true;
-            //dgTabela.AllowUserToAddRows = false;
-           
-
+            label1.Text = Program.koncert;
         }
 
-        private void buttonKupi_Click(object sender, EventArgs e)
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            Program.koncert = dgvTabela.CurrentCell.Value.ToString();
-            Karte formaKarte = new Karte();
-            formaKarte.Show();
+
         }
     }
-    
 }

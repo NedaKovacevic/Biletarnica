@@ -60,5 +60,12 @@ select koncert.izvodjac as izvodjac,  koncert.lokacija as lokacija, koncert.dan 
 from koncert 
 go
 
+go
+create view Pogled2
+as
+select  mesta.naziv as mesta, mesta.cena as cena
+from mesta
+go
+
 drop database Biletarnica0
-select * from koncert
+select * from pogled2

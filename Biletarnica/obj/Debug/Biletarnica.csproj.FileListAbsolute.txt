@@ -1,0 +1,5 @@
+C:\Users\tamar\Desktop\Neda Vanredno\Biletarnica\Biletarnica\obj\Debug\Biletarnica.csprojAssemblyReference.cache
+C:\Users\tamar\Desktop\Neda Vanredno\Biletarnica\Biletarnica\obj\Debug\Biletarnica.Login.resources
+C:\Users\tamar\Desktop\Neda Vanredno\Biletarnica\Biletarnica\obj\Debug\Biletarnica.Properties.Resources.resources
+C:\Users\tamar\Desktop\Neda Vanredno\Biletarnica\Biletarnica\obj\Debug\Biletarnica.csproj.GenerateResource.cache
+C:\Users\tamar\Desktop\Neda Vanredno\Biletarnica\Biletarnica\obj\Debug\Biletarnica.csproj.CoreCompileInputs.cache

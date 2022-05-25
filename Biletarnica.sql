@@ -53,6 +53,12 @@ insert into Korisnik values
 ('Jovana', 'Milic', 'lalalala@gmail.com', 'zebra'),
 ('Neda', 'Kovacevic', 'nedak@gmail.com', '0000')
 
-
+go
+create view Pogled
+as
+select koncert.izvodjac as izvodjac,  koncert.lokacija as lokacija, koncert.dan as dan, convert(varchar(5), koncert.vreme) as Vreme
+from koncert 
+go
 
 drop database Biletarnica0
+select * from koncert

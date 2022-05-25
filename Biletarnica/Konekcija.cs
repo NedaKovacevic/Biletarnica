@@ -12,8 +12,8 @@ namespace Biletarnica
     {
         static public SqlConnection Connect()
         {
-            string CS = ConfigurationManager.ConnectionStrings["Biletarnica"].ConnectionString;
-            SqlConnection veza = new SqlConnection(CS);
+            string cs = ConfigurationManager.ConnectionStrings["Biletarnica"].ConnectionString;
+            SqlConnection veza = new SqlConnection(cs);
             return veza;
         }
     }

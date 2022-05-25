@@ -43,12 +43,12 @@ namespace Biletarnica
                     {
                         if (String.Compare(tabela.Rows[0]["pass"].ToString(), textBoxPass.Text) == 0)
                         {
-                            MessageBox.Show("Login Successful!");
+                            
                             Program.user_ime = tabela.Rows[0]["ime"].ToString();
                             Program.user_prezime = tabela.Rows[0]["prezime"].ToString();
 
                             this.Hide();
-                            Admin frm_Admin = new Admin();
+                            Glavna frm_Admin = new Glavna();
                             frm_Admin.Show();
                         }
                         else
